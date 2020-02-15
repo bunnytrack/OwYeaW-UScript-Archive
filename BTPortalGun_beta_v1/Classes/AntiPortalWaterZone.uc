@@ -1,0 +1,1 @@
+class AntiPortalWaterZone extends WaterZone;

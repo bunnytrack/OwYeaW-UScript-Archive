@@ -1,0 +1,1 @@
+class AntiPortalLavaZone extends LavaZone;

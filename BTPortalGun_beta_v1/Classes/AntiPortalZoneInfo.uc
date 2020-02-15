@@ -1,0 +1,1 @@
+class AntiPortalZoneInfo extends ZoneInfo;
