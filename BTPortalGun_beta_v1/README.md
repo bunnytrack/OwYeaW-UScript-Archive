@@ -7,10 +7,15 @@ This README was added by Dizzy to list some known issues.
 This Portal gun for Unreal Tournament 99 was created by UT BunnyTrack player OwYeaW in 2019. It was his first major programming (and UScript) project.
 
 * The gun fires two portals which act like paired teleporters. 
-* Portals can transport the player, other actors/monsters, projectiles (excluding traced beams such as Instagib), objects (e.g. boxes) and more.
+* Portals can transport:
+  * The player
+  * Other actors including monsters
+  * Projectiles (excluding traced beams such as Instagib)
+  * Decoration objects (e.g. boxes)
 * Portals can be attached to movers.
-* Portals can be permanently placed and pre-set in a map within Unreal Editor.
-* Portals can be destroyed by a player entering a zone or passing a trigger/sheet.
+* Portals can be permanently placed (pre-set) in a map within Unreal Editor.
+* Portals can be destroyed by the player moving into a zone or passing a trigger/sheet/zone.
+* Portals attached to movers can be destroyed if the mover passes through a trigger/sheet/zone.
 
 For examples of all of the above, see OwYeaW's BT maps which I will also include in this repository:
 1. CTF-BT-PortalGun_beta5
